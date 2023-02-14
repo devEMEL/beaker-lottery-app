@@ -1,0 +1,51 @@
+{
+    "name": "Lottery",
+    "methods": [
+        {
+            "name": "create_start_lottery",
+            "args": [],
+            "returns": {
+                "type": "void"
+            }
+        },
+        {
+            "name": "setup",
+            "args": [],
+            "returns": {
+                "type": "void"
+            }
+        },
+        {
+            "name": "register",
+            "args": [],
+            "returns": {
+                "type": "void"
+            }
+        },
+        {
+            "name": "play",
+            "args": [
+                {
+                    "type": "pay",
+                    "name": "payment"
+                }
+            ],
+            "returns": {
+                "type": "void"
+            }
+        },
+        {
+            "name": "get_play",
+            "args": [
+                {
+                    "type": "address",
+                    "name": "player"
+                }
+            ],
+            "returns": {
+                "type": "(uint64,uint64,uint64)"
+            }
+        }
+    ],
+    "networks": {}
+}
